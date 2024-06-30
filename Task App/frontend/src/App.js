@@ -4,8 +4,10 @@ import Login from './components/Login';
 import Register from './components/Register'
 import Header from './components/Header';
 
+
 function App() {
   return (
+    <>
   <Router>
     <div className='container'>
       <Header />
@@ -16,6 +18,8 @@ function App() {
       </Routes>
     </div>
   </Router>
+  
+  </>
   );
 }
 
